@@ -1,3 +1,49 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color: limegreen;
+}
+
+.post-item {
+    display: flex;
+
+
+}
+
+.post-image {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.post-title {
+    width: 700px;
+    margin: 20px;
+}
+
+.post-title h2 {
+    padding: 10px 0;
+}
+
+.post-title p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
